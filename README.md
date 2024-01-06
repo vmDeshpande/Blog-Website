@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Clone the repository
 ```
-git clone https://github.com/your-username/blog-website.git
+git clone https://github.com/vmDeshpande/blog-website
 ```
 ## Move into the project directory
 ```
