@@ -29,7 +29,7 @@ npm install
 ```
 
 ## Set up MongoDB (Make sure MongoDB is installed and running)
-## Update the MongoDB connection string in app.js with your own connection details.
+Update the MongoDB connection string in app.js with your own connection details.
 
 ## Run the server
 ```
@@ -37,7 +37,6 @@ npm start
 ```
 
 ## Print instructions for the user
-echo "
 Your project is set up. Follow the instructions below:
 
 1. Open a new terminal and start your MongoDB server.
@@ -47,4 +46,3 @@ Your project is set up. Follow the instructions below:
 5. Open views/index.html and start building your HTML and JavaScript content.
 
 Happy coding!
-"
