@@ -15,7 +15,6 @@
 
     <a href="../views/post.html">Create New Post</a>
 
-    <!-- Add this script in the head or body of your index.html -->
     <script>
         // Sample template function
         function createPostHTML(title, content) {
@@ -32,10 +31,8 @@
                 const response = await fetch('/posts');
                 const posts = await response.json();
 
-                // Clear existing content
                 document.getElementById("post-list").innerHTML = '';
 
-                // Render each post
                 posts.forEach(post => {
                     const postHTML = createPostHTML(post.title, post.content);
                     document.getElementById("post-list").innerHTML += postHTML;
@@ -45,7 +42,6 @@
             }
         }
 
-        // Fetch and render posts when the page loads
         window.onload = fetchAndRenderPosts;
     </script>
 

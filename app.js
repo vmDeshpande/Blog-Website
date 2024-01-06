@@ -36,7 +36,6 @@ app.post('/send', async (req, res) => {
     }
 });
 
-// Add this route to your app.js
 app.get('/posts', async (req, res) => {
     try {
         const posts = await Post.find();
@@ -47,7 +46,6 @@ app.get('/posts', async (req, res) => {
     }
 });
 
-// Serve the style.css file from the 'views' directory
 app.use('/style.css', express.static(__dirname + '/views/style.css'));
 app.use('/style.css', express.static(__dirname + '/views/style1.css'));
 
