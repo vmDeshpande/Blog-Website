@@ -15,24 +15,22 @@ Before you begin, ensure you have met the following requirements:
 - Node.js installed
 - MongoDB server running
 
-#!/bin/bash
-
-# Clone the repository
+## Clone the repository
 git clone https://github.com/your-username/blog-website.git
 
-# Move into the project directory
+## Move into the project directory
 cd blog-website
 
-# Install required dependencies
+## Install required dependencies
 npm install
 
-# Set up MongoDB (Make sure MongoDB is installed and running)
-# Update the MongoDB connection string in app.js with your own connection details.
+## Set up MongoDB (Make sure MongoDB is installed and running)
+## Update the MongoDB connection string in app.js with your own connection details.
 
-# Run the server
+## Run the server
 npm start
 
-# Print instructions for the user
+## Print instructions for the user
 echo "
 Your project is set up. Follow the instructions below:
 
